@@ -1,0 +1,12 @@
+DB::beginTranscation();
+try {
+    $model = new Model;
+    $model->column_name = $value;
+    $model->save();
+    DB::commit()
+    return;
+}
+catch(exception $e) {
+    DB::rollback();
+    return;
+}

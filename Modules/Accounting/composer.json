@@ -1,0 +1,26 @@
+{
+    "name": "nwidart/accounting",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Accounting\\Providers\\AccountingServiceProvider",
+                "Modules\\Accounting\\Providers\\RepositoryServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Accounting\\": ""
+        }
+    }
+}

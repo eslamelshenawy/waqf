@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Balance</title>
+    <link rel="stylesheet" href="css/scss/framworks/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/app-rtl.css" />
+  </head>
+  <!-- sheet styles -->
+  <style>
+    .balance_sheet {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+    }
+    .balance_sheet h3 {
+      margin: 20px 0;
+    }
+    .table tbody tr:nth-of-type(odd) {
+      background-color: #ddd;
+    }
+  </style>
+
+  <body>
+    <div class="balance_sheet">
+      <h3>الميزانية</h3>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>الحساب</th>
+            <th>مدين</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>الأصول</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>الأصول الغير متداولة</td>
+            <td>-------</td>
+          </tr>
+          <tr>
+            <td>الأصول الثابتة بالصافى</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>مجموع الإلتزامات المتداولة</td>
+            <td>190</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

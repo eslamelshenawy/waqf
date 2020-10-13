@@ -1,0 +1,1 @@
+<?php /**PATH /home1/forsama1/public_html/waqf/Modules/Admin/Resources/views/layouts/partials/_errors.blade.php ENDPATH**/ ?>

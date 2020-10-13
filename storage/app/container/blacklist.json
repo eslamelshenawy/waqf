@@ -1,0 +1,12 @@
+[
+    "UserBlueprint.php",
+    "Image.php",
+    "Document.php",
+    "Kid.php",
+    "City.php",
+    "Estate.php",
+    "Bank.php",
+    "Asset.php",
+    "BeneficiaryBalance.php",
+    "TenantBalance.php"
+]

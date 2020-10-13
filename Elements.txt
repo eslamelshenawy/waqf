@@ -1,0 +1,58 @@
+<input id="picker2" class="form-control picker__input picker__input--active" placeholder="yyyy-mm-dd" name="birth_of_date_at" readonly="" aria-haspopup="true" aria-expanded="true" aria-readonly="false" aria-owns="picker2_root">
+
+button
+btn btn-raised btn-raised-primary btn-lg btn-rounded m-1
+
+
+btn btn-raised btn-raised-primary btn-rounded m-1
+
+const Toast = Swal.mixin({
+  toast: true,
+  position: 'top-end',
+  showConfirmButton: false,
+  timer: 3000,
+  timerProgressBar: true,
+  onOpen: (toast) => {
+    toast.addEventListener('mouseenter', Swal.stopTimer)
+    toast.addEventListener('mouseleave', Swal.resumeTimer)
+  }
+})
+
+Toast.fire({
+  icon: 'success',
+  title: 'Signed in successfully'
+})
+
+
+using case
+
+$dayType = DB::table('Store_Information')
+         ->select(DB::raw('CASE WHEN Sales >= 1000 THEN 'Good Day' WHEN Sales >= 500 THEN 'OK Day' ELSE 'Bad Day' END'))
+
+
+'photo' => 'mimes:jpeg,bmp,png'
+
+
+<div class="custom-control custom-switch">
+    <input type="checkbox" class="custom-control-input" id="isActive" name="is_active" value="1">
+    <label class="custom-control-label" for="isActive">Active</label>
+</div>
+
+
+
+btn btn-unique btn-rounded btn-sm my-0 waves-effect waves-light
+
+
+
+
+
+
+https://mdbootstrap.com/docs/jquery/tables/editable/#!
+
+
+
+
+
+
+
+

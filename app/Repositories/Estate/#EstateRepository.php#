@@ -1,0 +1,60 @@
+<?php
+
+
+namespace App\Repositories\Estate;
+
+use App\Estate;
+use App\Repositories\Estate\Apartment\ApartmentRepositoryInterface;
+use App\Repositories\Estate\Building\BuildingRepositoryInterface;
+use App\Repositories\Estate\Land\LandRepositoryInterface;
+use App\Repositories\Estate\Shop\ShopRepositoryInterface;
+
+
+class EstateRepository implements EstateRepositoryInterface
+{
+
+    protected $building;
+    protected $apartment;
+    protected $shop;
+    protected $land;
+
+    public function __construct(BuildingRepositoryInterface $building,
+                                ApartmentRepositoryInterface $apartment,
+                                ShopRepositoryInterface $shop,
+                                LandRepositoryInterface $land)
+    {
+//        $this->building = $building;
+        $this->apartment = $apartment;
+        $this->shop = $shop;
+        $this->land = $land;
+    }
+
+    public function all()
+    {
+        $estates = collect();
+//        $buildings = $this->building->all();
+//        $estates->push($buildings);
+        $apartments = $this->apartment->all();
+        $estates->push($apartments);
+        $shops = $this->shop->all();
+        $estates->push($shops);
+        $lands = $this->land->all();
+        $estates->push($lands);
+        return $estates;
+    }
+
+    public function getById()
+    {
+        // TODO: Implement getById() method.
+    }
+
+    public function getByNumber()
+    {
+        // TODO: Implement getByNumber() method.
+    }
+
+    public function getByType()
+    {
+        // TODO: Implement getByType() method.
+    }
+}

@@ -1,0 +1,1 @@
+<textarea name="{{ $field['name'] }}" class="form-control" id="{{ $field['id'] }}" cols="4"></textarea>

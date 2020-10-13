@@ -1,0 +1,1 @@
+<label for="{{ $field['for'] ?? '' }}" class="col-form-label">{{ $field['label'] ?? '' }}</label>

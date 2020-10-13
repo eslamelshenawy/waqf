@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/beneficiary",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Beneficiary\\Providers\\BeneficiaryServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Beneficiary\\": ""
+        }
+    }
+}

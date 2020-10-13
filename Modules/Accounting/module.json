@@ -1,0 +1,14 @@
+{
+    "name": "Accounting",
+    "alias": "accounting",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Accounting\\Providers\\AccountingServiceProvider",
+        "Modules\\Accounting\\Providers\\RepositoryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

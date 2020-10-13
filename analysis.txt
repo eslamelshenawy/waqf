@@ -1,0 +1,513 @@
+
+type maintenance_agency, tenants [ Service type ]
+
+User and many kind of profile
+
+Users Type
+
+[
+    'Maintenance Agent',
+    'Tenant',
+    'member of charitable fund',
+    'A beneficiary of the endowment'
+]
+
+Fields
+
+username, company, city, address, maintenance_type,
+
+** Users **
+
+name
+
+email
+
+password
+
+is_active
+
+status => [pending, confirmed, suspended]
+
+***********
+
+** Maintenance agency **
+
+username
+
+company name
+
+city
+
+address
+
+maintenance type
+
+mobile number
+
+password
+
+password confirmation
+
+*******************************
+
+** Tenants **
+
+name
+
+nationality
+
+identity_number
+
+birth_of_date
+
+release_at
+
+end_at
+
+password
+
+company_owner_name
+
+job
+
+job_title
+
+bank_account_number
+
+iban_number
+
+bank_name
+
+social_state
+
+single, married
+
+-----
+name
+
+gender
+
+birth_of_date
+
+identity_number
+-----
+
+{ ` ability to add child one or many ` }
+
+*******************************
+
+** Member of charitable fund **
+
+name
+
+nationality
+
+birth_of_date
+
+identity_number
+
+release_at
+
+end_at
+
+password
+
+job
+
+company_owner CEO
+
+job_title
+
+bank_account_number
+
+iban_number
+
+bank_name
+
+social state
+
+['single',  'married']
+
+if married type number of child
+
+
+*******************************
+
+** A beneficiary of the endowment **
+
+name
+
+nationality
+
+birth_of_date
+
+identity_number
+
+release_at
+
+end_at
+
+password
+
+job
+
+job_title
+
+owner_name CEO
+
+iban_number
+
+bank_name
+
+--------------
+
+social state
+
+['single', 'married and has child']
+
+name
+
+gender
+
+birth_of_date
+
+identity_number
+
+name
+
+gender
+
+------ kid ------
+
+name
+
+gender
+
+birth_of_date
+
+identity_number
+
+***************************
+
+
+username
+
+company_name
+
+city_id
+
+address
+
+maintenance_type
+
+mobile
+
+password
+
+END OF SUBSCRIBERS
+
+****************************
+
+****** real estate ********
+
+['real_estate', 'apartment', 'shop', 'ground']
+
+name
+
+city
+
+district
+
+street_name
+
+building_number
+
+building_space
+
+number_of_apartments
+
+number_of_floors
+
+number_of_shops
+
+number_of_instrument
+
+date_of_instrument
+
+court_name
+
+construction_license_number
+
+construction_license_date
+
+construction_kind_of ['residential', 'commercial']  you can choose two options  (type)
+
+& =>
+
+construction_documents
+
+image_of_instrument
+
+building_license
+
+building_image
+
+extra_details
+
+** The rent **
+
+monthly, quarterly, midterm
+
+price
+
+*********************************
+
+** Apartment **
+
+Add Apartment
+
+number_of_floor
+
+building
+
+number_of_rooms
+
+space
+
+number_of_toilets
+
+number_of_kitchens
+
+is_air_conditioner
+
+number_of_air_conditioner
+
+is_full_kitchen
+
+details
+
+is_parking
+
+rent_type
+
+flat_images []
+
+details
+
+**************************************
+
+** shop **
+
+number
+
+space
+
+building [ must be have at least one real estate ]
+
+is_on_main_street
+
+is_has_air_conditioner
+
+number_of_air_conditioner
+
+conditioner_brand
+
+is_has_decoration
+
+details
+
+is_has_warehouse
+
+rent_type [ monthly, quarterly, midterm, yearly  ]
+
+Shop Images
+
+extra - details
+
+is_has_license
+
+notes
+
+**************************************
+
+** Ground **
+
+location
+
+space
+
+number
+
+instrument_number
+
+instrument_date
+
+court_number
+
+city
+
+type => another table
+
+description
+
+district_name
+
+street_name
+
+ground images
+
+*******************************
+
+Images polymorphic
+
+********************************
+
+Blog
+
+********************************
+
+** Site Setting **
+
+title
+
+description
+
+is_up
+
+menus
+
+Home page
+
+Yellow area
+
+search area
+
+owner description
+
+services
+
+real estate ads with pagination
+
+news from blog
+
+footer
+
+blog
+
+real estate ads
+
+images
+
+contact us
+
+about us
+
+license
+
+privacy
+
+News letter
+
+Social Network icon in footer
+
+App app title by arabic once and another english
+
+Logo in the footer with brief of description
+
+copyrights on the end of home page
+
+**********************************
+
+static pages
+
+chat, Customer Service
+
+**********************************
+
+Forget Password
+
+Change Password
+
+With number code or whatever
+
+*************************************
+
+bookings_type
+
+title, description, price, period [ month ] , number_of_days
+
+*************************************
+
+Booking of apartment
+
+name
+
+mobile number
+
+email
+
+booked_at
+
+booking_type => another table has more details about booking type description with price
+
+***********************************************************
+
+Maintenance Center
+
+Search ability,
+
+Request new maintenance type
+
+************************************************************
+
+Maintenance Order
+
+name
+
+email
+
+mobile
+
+apartment [ choose of apartment ] - i want further detail
+
+available_date
+
+description_of_issue
+
+*************************************************
+
+Maintenance Organization
+
+Orders either for technical or company
+
+**************************************************
+
+Customers     [ user ]
+
+name, mobile, address
+
+**************************************************
+
+issues_type
+
+****************************************************
+
+
+Customers, add customer, edit, update, delete
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

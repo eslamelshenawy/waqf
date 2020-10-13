@@ -1,0 +1,161 @@
+
+
+$loop->iteration
+
+return $this->belongsToMany('App\Podcast')
+                ->as('subscription')
+                ->withTimestamps();
+
+
+$users = User::with('podcasts')->get();
+
+foreach ($users->flatMap->podcasts as $podcast) {
+    echo $podcast->subscription->created_at;
+}
+
+
+$table->geometry('positions');	GEOMETRY equivalent column.
+$table->geometryCollection('positions');	GEOMETRYCOLLECTION equivalent column.
+
+
+$table->softDeletes(0)
+
+Schema::create('flights', function (Blueprint $table) {
+    $table->bigIncrements('id');
+    $table->json('movies')->default(new Expression('(JSON_ARRAY())'));
+    $table->timestamps();
+});
+
+
+Schema::table('users', function (Blueprint $table) {
+    $table->renameColumn('from', 'to');
+});
+
+
+https://appdividend.com/2018/05/18/laravel-polymorphic-relationship-tutorial-example/
+
+
+https://appdividend.com/2018/05/18/laravel-hasmanythrough-relationship-example/
+
+Schema::enableForeignKeyConstraints();
+
+Schema::disableForeignKeyConstraints();
+
+
+****** Polymorphic One to many **********
+
+         $table->integer('commentable_id')->unsigned();
+         $table->string('commentable_type');
+public function images()
+    {
+        return $this->morphMany(Image::class, 'imageable');
+    }
+
+
+https://itnext.io/laravel-and-vue-creating-a-portfolio-website-with-a-crud-admin-panel-chapter-15-40507d27a340
+
+
+
+The "has-one-through" relationship links models through a single intermediate relation. For example,
+if each supplier has one user, and each user is associated with one user history record,
+then the supplier model may access the user's history through the user. Let's look at the database tables necessary to define this relationship:
+
+
+https://blog.hashvel.com/posts/eloquent-orm-soft-delete-permanent-delete-in-laravel/
+
+
+public function find($id): ?Model
+{
+    return $this->model->find($id);
+}
+
+
+/* User Repository */
+
+interface UserRepository
+{
+   /**
+    * @return User[]
+    */
+   public function all(): iterable;
+
+   public function ofId(string $userId): ?User;
+
+   public function add(User $user): void;
+
+   public function remove(User $user): void;
+}
+
+interface User
+{
+   public function getId(): string;
+
+   public function getPassword(): string;
+
+   // You get the idea
+}
+
+/* User Repository */
+
+
+
+
+https://www.larashout.com/how-to-use-laravel-model-observers
+Creating Observe in laravel
+
+
+Create observe
+php artisan make:observer InvoiceObserver --model=Invoice
+
+Create Service provider for bootstrap service for every specific operation for target model
+
+
+php artisan make:service InvoiceServiceProvider
+
+Invoice::observe(InvoiceObserve::class);
+
+
+
+
+
+
+cash sales invoice for magdy amount 100
+
+fund
+
+rent service
+
+receipt voucher
+
+from magdy
+
+
+
+if you want to execute command from php to terminal or cmd u have to use shell_exec
+
+data picker adavanced with javascript
+
+<div class="col-md-4">
+                    <div class="form-group mb-3">
+                        <label for="order-datepicker">Order at</label>
+                        <input id="order-datepicker" class="form-control text-right" placeholder="yyyy-mm-dd" name="order_at">
+                    </div>
+                </div>
+
+
+
+
+
+
+Form builder Example:
+
+
+@component('shared::includes._form_', $form=['action' => route('beneficiaries.register'), 'method' => 'POST'])
+    @component('shared::includes._section_')
+        @input($field=['name' => 'demo', 'type' => 'text', 'id' => 'demoid'])
+    @endcomponent
+@endcomponent
+
+
+
+https://mdbootstrap.com/docs/jquery/modals/additional/

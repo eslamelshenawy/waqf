@@ -1,0 +1,5 @@
+composer require "grimzy/laravel-mysql-spatial"
+
+geometry
+
+polygon

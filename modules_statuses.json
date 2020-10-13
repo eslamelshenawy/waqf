@@ -1,0 +1,11 @@
+{
+    "Admin": true,
+    "StaticPage": true,
+    "Blog": true,
+    "Client": true,
+    "Accounting": true,
+    "Orchestra": true,
+    "Shared": true,
+    "Subscribe": true,
+    "Beneficiary": true
+}

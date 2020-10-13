@@ -1,0 +1,14 @@
+<?php
+
+
+namespace App\Repositories\Estate;
+
+use App\Estate;
+
+interface EstateRepositoryInterface
+{
+    public function all();
+    public function getById();
+    public function getByNumber();
+    public function getByType();
+}

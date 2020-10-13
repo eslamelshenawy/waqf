@@ -1,0 +1,97 @@
+<?php
+
+return [
+    'it' => 'لوحة التحكم',
+    'and' => 'و',
+    'agencies' => 'وكالات الصيانة',
+    'real_estates' => 'العقارات',
+    'buildings' => 'الابنية',
+    'apartments' => 'الشقق',
+    'shops' => 'المحلات',
+    'lands' => 'الاراضي',
+    'estates' => 'العقارات',
+    'users' => 'المستخدمين',
+    'beneficiaries' => 'المستفيدين',
+    'Reservations' => 'الحجوزات',
+    'tenants' => 'المستاجرين',
+    'accounting' => 'الحسابات',
+    'account_settings' => 'اعدادات الحساب',
+    'accounts' => 'الحسابات',
+    'account' => 'الحساب',
+    'roles_and_permissions' => 'الادوار والصلاحيات',
+    'administrators_and_privileges' => 'المدراء والمميزات',
+    'subscribers' => [
+        'it' => 'المشتركيين',
+        'subscribe' => 'مشترك',
+        'manage' => 'ادارة المشتركيين'
+    ],
+    'administrators' => [
+        'it' => 'المدراء',
+        'administrator' => 'مدير',
+        'the_administrator' => 'المدير',
+        'new' => 'مدير جديد',
+        'create' => 'انشاء مدير'
+    ],
+    'privileges' => [
+        'it' => 'المميزات',
+        'privilege' => 'الميزة',
+        'manage_privileges' => 'ادارة المزايا'
+    ],
+    'roles' => [
+        'it' => 'الادوار',
+        'role' => 'الدور',
+        'new' => 'دور جديد',
+        'create' => 'انشاء دور',
+        'manage' => 'ادارة الادوار',
+        'sync' => 'مزامنة الادوار'
+    ],
+    'permissions' => [
+        'it' => 'الصلاحيات',
+        'permission' => 'الصلاحية',
+        'new' => 'صلاحية جديدة',
+        'create' => 'انشاء صلاحية',
+        'manage' => 'ادارة الصلاحيات',
+        'sync' => 'مزامنة الصلاحيات'
+    ],
+    'notifications' => [
+        'it' => 'الاشعارات',
+        'notification' => 'الاشعار',
+    ],
+    'role' => 'الدور',
+    '_role' => ' :something ' . 'الدور',
+    'role_' => 'الدور' . ' :something ',
+    '_roles' => ' :something ' . 'الادوار',
+    'roles_' => 'الادوار' . ' :something ',
+    'incorrect' => 'البيانات المدخلة غير صحيحة',
+    'settings' => [
+        'it' => 'الاعدادات',
+        'setting' => 'الاعداد'
+    ],
+    'template' => 'القالب',
+    'template_control' => 'التحكم في القالب',
+    'static_pages' => 'الصفحات الثابتة',
+    '_pages' => ':something الصفحات',
+    '_page' => ':something الصفحة',
+    'page_title' => 'عنوان الصفحة',
+    'inner.addnewuser' => 'addnewuser',
+    'inner.editnewuser' => 'Edituser',
+    'inner.username' => 'username',
+    'inner.email' => 'email',
+    'inner.password' => 'password',
+    'inner.roles' => 'roles',
+    'settings_site_title' => 'اسم الموقع',
+    'settings_site_email' => 'بريد ادارة الموقع',
+    'settings_site_mobile' => 'جوال للاتصال',
+    'settings_site_phone' => 'هاتف للاتصال',
+    'settings_facebook_url' => 'رابط facebook',
+    'settings_twitter_url' => 'رابط twitter',
+    'settings_instgram_url' => 'رابط instagram',
+    'settings_site_whatup' => 'الواتس اب',
+    'settings_site_aboutus_ar' => 'نبذه عنا باللغه ',
+    'settings_site_addresse' => 'العنوان باللغه العربيه',
+    'playStoreLink' => 'رابط play Store',
+    'aplleStoreLink' => 'رابط Apple Store',
+    'logoImage' => 'صوره اللوجو :',
+    'advances' => 'السلف',
+
+];

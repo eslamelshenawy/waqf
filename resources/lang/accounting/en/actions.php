@@ -1,0 +1,37 @@
+<?php
+
+
+return [
+    'it' => 'Actions',
+    'action' => 'Action',
+    'add' => 'Add',
+    'added' => 'Added',
+    'create' => 'Create',
+    'created' => 'Created',
+    'save' => 'Save',
+    'saved' => 'Saved',
+    'saving' => 'Saving',
+    'edit' => 'Edit',
+    'update' => 'Update',
+    'updated' => 'Updated',
+    'delete' => 'Delete',
+    'deleted' => 'Deleted',
+    'deleting' => 'Deleting',
+    'destroy' => 'destroy',
+    'destroyed' => 'destroyed',
+    'manage' => 'manage',
+    'show' => '',
+    'print' => 'Print',
+    'printing' => 'Printing',
+    'enable' => 'Enable',
+    'disable' => 'Disable',
+    'disabled' => 'disabled',
+    'confirm' => 'Confirm',
+    'active' => 'Active',
+    'activate' => 'Activate',
+    'deactivate' => 'Deactivate',
+    'undo' => 'Undo',
+    'back' => 'Back',
+    'forward' => 'Forward',
+    'new' => 'New'
+];

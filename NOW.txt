@@ -1,0 +1,15 @@
+
+user_id
+city_id
+land_number
+land_location
+land_space
+
+
+instrument_number
+instrument_date_at
+court
+land_type
+land_description
+district
+street

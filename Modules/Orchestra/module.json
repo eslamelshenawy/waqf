@@ -1,0 +1,13 @@
+{
+    "name": "Orchestra",
+    "alias": "orchestra",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Orchestra\\Providers\\OrchestraServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
